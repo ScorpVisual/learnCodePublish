@@ -6,17 +6,27 @@
  header {
      background-color: black;
      text-align: center;
-     padding-top: 50px;
-     padding-bottom: 50px;
+     padding-top: 2%;
+     padding-bottom: 2%;
+ }
+ 
+ div {
+     text-align: center, justify;
+     font-family: Arial, Helvetica, sans-serif;
  }
 
  header h1 {
      color: white;
  }
 
- header img{
+ header img {
+     width: 230px;
      border-radius: 50%;
      border: 10px solid white;
+ }
+
+ img {
+     width: 150px;
  }
 
  main {
