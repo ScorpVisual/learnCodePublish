@@ -14,9 +14,10 @@ body {
 .naglowek {
     grid-area: header;
     background-color: black;
-    padding: 30px;
+    color: wheat;
+    padding: 2rem;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 /* container tabelki */
@@ -27,4 +28,110 @@ body {
     'left middle middle middle middle right' 
     'footer footer footer footer footer footer';
     column-gap: 10px; 
+}
+
+/* styl kolumn */
+.left,
+.middle,
+.right {
+    padding: 10px;
+}
+
+.left {
+    grid-area: left;
+    grid-column:  1 / 2;
+}
+
+.middle {
+    grid-area: middle;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+.right {
+    grid-area: right;
+
+}
+
+/* stopka */
+.footer {
+    grid-area: footer;
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* Responsive layout  zobaczymy co to*/
+@media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }
+
+/* NAVIGATION BAR PIONOWY*/
+.navPoziom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.liPoziom a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.liPoziom a:hover {
+    background-color: crimson;
+    color: white;
+
+}
+
+/* NAWIGACJA W LEWEJ KOLUMNIE */
+.navPion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    background-color: cornflowerblue;
+}
+
+.liPion a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* hover change */
+
+.liPion a:hover {
+        background-color: crimson;
+        color: white;
+
+}
+
+/* OBRAZKI */
+
+.obrazekNaglowny {
+    width: 230px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.obrazek {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+    text-align: center;
 }
