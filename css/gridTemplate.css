@@ -1,0 +1,30 @@
+/* 
+$colorName: numerkoloru;
+pozwala na sprecyzowanie jaki odcień koloru np. green ma być. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.naglowek {
+    grid-area: header;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* container tabelki */
+.tabela {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+    column-gap: 10px; 
+}
