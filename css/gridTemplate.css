@@ -14,7 +14,9 @@ pozwala na sprecyzowanie jaki odcień koloru np. green ma być. */
 
 /* IMPORTY */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('https://use.typekit.net/fyu2kzw.css');
+@import url('http://fonts.googleapis.com/css?family=Amatic');
 
 /* STYLE SHEET */
 
@@ -23,8 +25,22 @@ pozwala na sprecyzowanie jaki odcień koloru np. green ma być. */
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
     background-color: #EFEFEF;
+}
+
+p {
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+ } 
+
+.akapit {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 700;
+    font-style: italic;    
 }
 
 /* Header */
