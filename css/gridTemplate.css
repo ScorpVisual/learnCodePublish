@@ -91,6 +91,7 @@ p {
 
 /* stopka */
 .footer {
+    /* można dać position:sticky */
     grid-area: footer;
     background-color: #594D46;
     padding: 10px;
@@ -162,6 +163,7 @@ p {
 }
 
 /* OBRAZKI */
+/* CLEARFIX z w3schools pomaga poprawnie umieścić obrazki w divach */
 
 .obrazekNaglowny {
     width: 230px;

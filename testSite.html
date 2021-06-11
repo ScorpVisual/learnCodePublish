@@ -31,7 +31,13 @@
             border-radius: 30px;
         }
 
+
+        /* UŻYĆ OVERFLOW'a w boxach */
+
+
         .boxWhite {
+            /* abosulte tylko po ramkach z DIVa ; float do zawijania tekstu, tutaj redundant*/
+            position: absolute;
             float: left;
             width: 40%;
             background-color: #EFEFEF;
@@ -45,6 +51,7 @@
         }
 
         .boxBlack {
+            position: absolute;
             float: right;
             right: 0px;
             width: 40%;
