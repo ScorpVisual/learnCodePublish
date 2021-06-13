@@ -1,0 +1,39 @@
+    /*KOLORY .kocieTexty.pl
+#080706 Black Steel
+#EFEFEF Paper
+#D1B280 Gold Leaf
+#594D46 Silver*/
+
+body{
+    background-color: #573f19;
+    margin: auto;
+}
+
+  .carousel-inner img {
+    margin: auto;
+  }
+  
+
+.box {
+    background-color: #73e92f;
+    color: #080706;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div .col-sm-3 {
+        /* abosulte tylko po ramkach z DIVa ; float do zawijania tekstu, tutaj redundant*/
+
+        background-color: #cf3fb7;
+        color: #080706;
+        border-radius: 30px;
+        outline-style: solid;
+        outline-color: white;
+        padding: 1%;
+        margin: 1%;
+}
+
