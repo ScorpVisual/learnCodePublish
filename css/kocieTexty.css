@@ -1,0 +1,44 @@
+    /*KOLORY .kocieTexty.pl
+#080706 Black Steel
+#EFEFEF Paper
+#D1B280 Gold Leaf
+#594D46 Silver*/
+
+/* IMPORTY */
+
+@import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('https://use.typekit.net/fyu2kzw.css');
+@import url('http://fonts.googleapis.com/css?family=Amatic');
+
+
+
+
+body {
+    background-color: #D1B280;
+    margin: auto;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* IMG */
+#home-section {
+    background-image:url(../img/zima.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.aw-vertical-align {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+}
+
+.aw-heading {
+    font-weight: 900;
+    font-size: 2.125rem;
+    letter-spacing: 0.10rem;
+}
+
+.aw-ending {
+    color: red;
+}
