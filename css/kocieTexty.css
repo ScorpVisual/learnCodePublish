@@ -14,7 +14,7 @@
 
 
 body {
-    background-color: #EFEFEF;
+    background-color: #594D46;
     margin: auto;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -145,6 +145,18 @@ p {
     font-style: italic;    
 }
 
+.akapitMniejszy {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-title {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
 /* Header */
 .naglowek {
     grid-area: header;
@@ -153,4 +165,11 @@ p {
     padding: 2rem;
     text-align: center;
     font-size: 25px;
+}
+
+
+.obrazekNaglowny {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #D1B280;
 }
