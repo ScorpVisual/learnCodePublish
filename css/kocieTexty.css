@@ -43,6 +43,21 @@ body {
 /* END OVERRIDES */
 
 /* IMG */
+
+    #home-section {
+        height: 100vh;
+    }
+    
+    #home-section-background {
+        background-image:url(../img/kotSniezny.jpg);
+        background-size: cover;
+        overflow: hidden;
+        min-height: auto;
+        min-width: 400px;
+    }
+
+
+@media only screen and (min-width: 1024px) {
 #home-section {
     height: 100vh;
 }
@@ -51,8 +66,9 @@ body {
     background-image:url(../img/zima.jpg);
     background-size: cover;
     overflow: hidden;
-    justify-content: center;
-
+    min-height: auto;
+    min-width: 400px; 
+}
 }
 
 .aw-vertical-align {
