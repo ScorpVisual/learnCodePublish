@@ -72,12 +72,12 @@ body {
 }
 
 .aw-vertical-align {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
 }
 
 .aw-heading {
-    font-weight: 900;
+    font-weight: 600;
     font-size: 2.125rem;
     letter-spacing: 0.10rem;
     position: absolute;
