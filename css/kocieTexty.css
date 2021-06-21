@@ -44,9 +44,15 @@ body {
 
 /* IMG */
 #home-section {
+    height: 100vh;
+}
+
+#home-section-background {
     background-image:url(../img/zima.jpg);
     background-size: cover;
-    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+
 }
 
 .aw-vertical-align {
@@ -58,6 +64,9 @@ body {
     font-weight: 900;
     font-size: 2.125rem;
     letter-spacing: 0.10rem;
+    position: absolute;
+    align-self: center;
+    
 }
 
 .aw-ending {
