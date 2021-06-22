@@ -14,7 +14,7 @@
 
 
 body {
-    background-color: #594D46;
+    background-color: #e2dfdd;
     margin: auto;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -24,6 +24,7 @@ body {
 /* COLOR OVERRIDE */
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #594D46 !important;
+    border-color: #D1B280 !important;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
 }
 
@@ -31,6 +32,7 @@ body {
     color: #EFEFEF;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
     background-color: #594D46 !important;
+    border-color: #D1B280 !important;
 }
 
 .nav-link {
@@ -92,7 +94,7 @@ body {
 
 
 .box {
-    background-color: #EFEFEF;
+    background-color: white;
     color: #080706;
     border-radius: 30px;
     padding: 1%;
@@ -105,6 +107,7 @@ body {
 .boxBlack {
     background-color: #080706;
     color: #EFEFEF;
+    border-color: #EFEFEF;
     border-radius: 30px;
     padding: 1%;
     margin-top: 1%;
