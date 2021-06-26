@@ -7,6 +7,7 @@
 /* IMPORTY */
 
 @import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('http://fonts.googleapis.com/css?family=DM+Serif+Text');
 @import url('https://use.typekit.net/fyu2kzw.css');
 @import url('http://fonts.googleapis.com/css?family=Amatic');
 
@@ -23,7 +24,7 @@ body {
 
 /* COLOR OVERRIDE */
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #594D46 !important;
+    background-color: #D1B280 !important;
     border-color: #D1B280 !important;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
 }
@@ -31,8 +32,8 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show .nav-link {
     color: #EFEFEF;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
-    background-color: #594D46 !important;
-    border-color: #D1B280 !important;
+    background-color: #D1B280 !important;
+    border-color: #594D46 !important;
 }
 
 .nav-link {
@@ -41,10 +42,35 @@ body {
 }
 .nav-link.active {
     color:  #EFEFEF !important;
+    background-color: #D1B280 !important;
+    border-color: #D1B280 !important;
 }
+
+
+  /* .tab-content{
+      padding: 20px;
+  }
+   */
+  .nav-tabs > li > a {
+    color: #080706 !important;
+  }
+  
+  .nav-tabs > li > a:hover{
+    background-color: #594D46 !important;
+    color: #EFEFEF !important;
+  }
+
+
+
 /* END OVERRIDES */
 
 /* IMG */
+
+    .navImg {
+        height: 40px;
+        width: auto;
+        margin: 3px;
+    }
 
     #home-section {
         height: 100vh;
@@ -58,6 +84,13 @@ body {
         min-width: 400px;
     }
 
+    .logoNoText {
+        width: 150px; height: auto;
+    }
+
+    .card-img-top {
+        border-radius: 30px;
+    }
 
 @media only screen and (min-width: 1024px) {
 #home-section {
@@ -90,7 +123,6 @@ body {
 .aw-ending {
     color: red;
 }
-
 
 
 .box {
@@ -148,19 +180,19 @@ p {
  } 
 
  .akapit {
-    font-family: 'adobe-caslon-pro', serif;
+    font-family: 'DM Serif Text', serif;
     font-weight: 800;
     font-style: italic;    
 }
 
 .akapitMniejszy {
-    font-family: 'adobe-caslon-pro', serif;
+    font-family: 'DM Serif Text', serif;
     font-weight: 600;
     font-size: 22px;
 }
 
 .card-title {
-    font-family: 'adobe-caslon-pro', serif;
+    font-family: 'DM Serif Text', serif;
     font-weight: 600;
     font-size: 22px;
 }

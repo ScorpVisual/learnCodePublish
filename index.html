@@ -21,6 +21,7 @@
     <!-- NAVBAR -->
 
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <img class="navImg" src="img/logoNoText.png">
     <a class="navbar-brand" href="#">.kocieTexty</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,16 +29,16 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home </a>
+          <a class="nav-link" href="index.html #">Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="index.html #portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cennik">Cennik</a>
+          <a class="nav-link" href="index.html #cennik">Cennik</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#about">O mnie</a>
+            <a class="nav-link" href="index.html #about">O mnie</a>
           </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,7 +46,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#kontakt">Nasze dane</a>
-            <a class="dropdown-item" href="#">Facebook</a>
+            <a class="dropdown-item" href="https://pl-pl.facebook.com/KocieTexty/">Facebook</a>
             <a class="dropdown-item" href="#">Youtube</a>
           </div>
         </li>
@@ -81,6 +82,28 @@
   </div>
   
   <!-- END TEKST POWITALNY -->
+
+  <!-- WHY COPY -->
+  <div class="jumbotron box m-5">
+    <ul class="nav nav-tabs box justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tekst jest ważny!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Bez copywritera</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Tekst z .kocimiTextami!</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active p-4" id="home" role="tabpanel" aria-labelledby="home-tab">Kliknij tabelkę, żeby sprawdzić zawartość.</div>
+      <div class="tab-pane fade p-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">Tak wygląda smutny tekst.</div>
+      <div class="tab-pane fade p-4" id="contact" role="tabpanel" aria-labelledby="contact-tab">Tak wygląda wesoły tekst - został odpicowany przez .kocieTexty!</div>
+    </div>
+  </div>
+
+  <!-- END WHY COPY -->
 
   <!-- CAROUSEL -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -140,26 +163,31 @@
 
   <!-- CARDS -->
   <div id="portfolio" class="card-deck m-3">
-    <div class="card boxBlack">
+    <div class="card box">
       <img class="card-img-top" src="img/chicago.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Chicago cat</h5>
         <p class="card-text">To jest tekst o kocie z Chicago.<br> Dowiedz się więcej o jego przygodach!</p>
       </div>
+      <a href="portfolio-1.html" class="btn btn-primary mx-3">Zobacz</a>
     </div>
-    <div class="card boxBlack">
+    </a>
+    <div class="card box">
       <img class="card-img-top" src="img/la.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">LA cat</h5>
         <p class="card-text">To jest tekst o kocie z Los Angeles.<br> Dowiedz się więcej o jego przygodach!</p>
       </div>
+      <a href="portfolio-2.html" class="btn btn-primary mx-3">Zobacz</a>
     </div>
-    <div class="card boxBlack">
+    
+    <div class="card box">
       <img class="card-img-top" src="img/ny.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">NY cat</h5>
         <p class="card-text">To jest tekst o kocie z Nowego Yorku.<br> Dowiedz się więcej o jego przygodach! Są bardzo długie, żeby pokazać jak będzie wyglądała ta karta przy dłuższym tekście.</p>
       </div>
+      <a href="portfolio-3.html" class="btn btn-primary mx-3">Zobacz</a>
     </div>
   </div>
 
@@ -262,7 +290,7 @@
 <!-- END VIEWPORT #1 -->
 
 
-  <!-- VIEWPORT #2 -->
+  <!-- O MNIE -->
 
 <div class="container-lg box p-3 m-5">
     <div id="about" class="jumbotron box">
@@ -278,7 +306,7 @@
     </div>
   </div>
   
-  <!-- END VIEWPORT #2 -->
+  <!-- END O MNIE -->
 
   <!-- KONTAKT -->
 
