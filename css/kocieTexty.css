@@ -15,7 +15,7 @@
 
 
 body {
-    background-color: #e2dfdd;
+    background-color: rgb(252, 242, 212);
     margin: auto;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -23,10 +23,16 @@ body {
 }
 
 /* COLOR OVERRIDE */
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:active, .btn-primary:visited {
     background-color: #D1B280 !important;
-    border-color: #D1B280 !important;
+    border-color: #EFEFEF !important;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
+}
+
+.btn-primary:hover {
+    background-color: #594D46 !important;
+    border-color: #594D46 !important;
+    color: #D1B280 !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show .nav-link {
@@ -60,7 +66,13 @@ body {
     color: #EFEFEF !important;
   }
 
+  .btn-link {
+    color: #594D46;
+  }
 
+  .btn-link:hover {
+    color: #D1B280;
+  }
 
 /* END OVERRIDES */
 
@@ -85,12 +97,30 @@ body {
     }
 
     .logoNoText {
-        width: 150px; height: auto;
+        width: auto;
+        max-width: 150px;
+        height: auto;
+    }
+
+    .logoMedia {
+        max-width: 96px;
+        height: auto;
     }
 
     .card-img-top {
         border-radius: 30px;
     }
+
+    .obrazekNaglowny {
+        width: auto;
+        max-width: 150px;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid #D1B280;
+    }
+
+    /*  CONTENT */
+
 
 @media only screen and (min-width: 1024px) {
 #home-section {
@@ -126,8 +156,9 @@ body {
 
 
 .box {
-    background-color: white;
+    background-color: #fff;
     color: #080706;
+    border-color: #D1B280;
     border-radius: 30px;
     padding: 1%;
     margin-top: 1%;
@@ -148,10 +179,59 @@ body {
     margin-right: auto;
 }
 
+.boxGold {
+    background-color: #fff;
+    color: #080706;
+    border-color: #D1B280;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxGrey {
+    background-color: inherit;
+    border-color: #594D46;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ikona {
+    background-color: #D1B280;
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+
+}
+
 .ukryty {
     visibility: hidden;
     max-height: 40px;
-}    
+}
+
+.footer {
+    background-color: #594D46;
+    color: #776961;
+    margin: 0;
+    padding: 30px;
+}
+
+.footer .btn-link {
+    color: #D1B280;
+
+}
+
+.footer .btn-link:hover {
+    color: #EFEFEF;
+}
+
 
 div .col-sm-3 {
         /* abosulte tylko po ramkach z DIVa ; float do zawijania tekstu, tutaj redundant*/
@@ -207,9 +287,9 @@ p {
     font-size: 25px;
 }
 
-
-.obrazekNaglowny {
-    width: 150px;
-    border-radius: 50%;
-    border: 2px solid #D1B280;
+.linkText {
+    color: #594D46;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
