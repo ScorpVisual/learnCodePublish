@@ -110,8 +110,7 @@ body {
 
     #why-section-background {
         background-image:url(../img/stock/catShelf.jpg);
-        background-size: cover;
-        overflow: hidden;
+        background-size: cover;     
         min-height: auto;
         min-width: 400px;
     }
