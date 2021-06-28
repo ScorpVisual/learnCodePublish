@@ -89,7 +89,7 @@ body {
     }
     
     #home-section-background {
-        background-image:url(../img/kotSniezny.jpg);
+        background-image:url(../img/stock/catPeeking.jpg);
         background-size: cover;
         overflow: hidden;
         min-height: auto;
@@ -128,7 +128,7 @@ body {
 }
 
 #home-section-background {
-    background-image:url(../img/zima.jpg);
+    background-image:url(../img/stock/catBookshelf.jpg);
     background-size: cover;
     overflow: hidden;
     min-height: auto;
@@ -292,4 +292,18 @@ p {
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
+}
+
+.carouselHeader {
+    font-weight: 600;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 24px;
+}
+
+.carouselText {
+    font-weight: 400;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 16px;
 }
