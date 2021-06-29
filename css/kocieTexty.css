@@ -15,7 +15,7 @@
 
 
 body {
-    background-color: rgb(240, 229, 195);
+    background-color: #dfdfdf;
     margin: auto;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -265,7 +265,7 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red;
+    color: #fff;
     font-size: 74px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
