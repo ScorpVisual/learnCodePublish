@@ -265,7 +265,7 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(253, 30, 67);
+    color: red;
     font-size: 74px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
@@ -430,6 +430,13 @@ div .col-sm-3 {
      width:80%; height: auto;
      margin: auto;
      }
+
+.carousel-bg {
+    width: 100%;
+    height: auto;
+    background-color: #080706;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 /* TEKST */
