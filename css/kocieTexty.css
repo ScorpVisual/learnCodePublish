@@ -140,7 +140,113 @@ body {
 
 
 
-/* testing */
+/* HERO IMAGE */
+
+.hero-image {
+    background-image:url(../img/stock/catShelfCoverShorter.jpg);
+    background-color: #cccccc;
+    width: 100%;
+    height: 2232px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-header {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(253, 30, 67);
+    font-size: 40px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .hero-p {
+    font-size: 14px;
+}
+
+.hero-gray {
+    color: gray; font-size: 12px;
+}
+
+.hero-brand {
+    color: #EFEFEF; font-size: 20px;
+}
+.hero-h1 {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hero-h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hero-h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.aw-vertical-align {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+.aw-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.10rem;
+    position: absolute;
+    margin-top: 90px;
+    align-self: center;
+    text-shadow: #080706;
+    
+}
+
+.aw-ending {
+    color: red;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #home-section {
+        height: 100vh;
+    }
+
+    #home-section-background {
+        background-image:url(../img/stock/catBookshelf.jpg);
+        background-size: cover;
+        overflow: hidden;
+        min-height: auto;
+        min-width: 400px; 
+    }
+
+    .aw-heading {
+        font-weight: 600;
+        font-size: 4rem;
+        letter-spacing: 0.10rem;
+        margin-top: 20px;
+        margin-bottom: 90px;
+        position: absolute;
+        align-self: center;
+        text-shadow: #080706;
+        
+    }
 
   .hero-image {
     background-image:url(../img/stock/catShelfCoverShorter.jpg);
@@ -174,6 +280,34 @@ body {
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
 
+  .hero-p {
+    font-size: 22px;
+}
+
+.hero-gray {
+    color: gray; font-size: 17px;
+}
+
+.hero-brand {
+    color: #EFEFEF; font-size: 30px;
+}
+.hero-h1 {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero-h2 {
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero-h3 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
   /* .hero-image:after {
     content: "";
     position: absolute;
@@ -200,43 +334,6 @@ body {
   
     /*  CONTENT */
 
-
-@media only screen and (min-width: 1024px) {
-#home-section {
-    height: 100vh;
-}
-    #why-section {
-        height: 100vh;
-    }
-}
-
-#home-section-background {
-    background-image:url(../img/stock/catBookshelf.jpg);
-    background-size: cover;
-    overflow: hidden;
-    min-height: auto;
-    min-width: 400px; 
-}
-
-
-.aw-vertical-align {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 100vh;
-}
-
-.aw-heading {
-    font-weight: 600;
-    font-size: 4rem;
-    letter-spacing: 0.10rem;
-    position: absolute;
-    align-self: center;
-    text-shadow: #080706;
-    
-}
-
-.aw-ending {
-    color: red;
-}
 
 
 .box {
@@ -392,6 +489,3 @@ p {
     font-size: 16px;
 }
 
-.hero-p {
-    font-size: 22px;
-}
