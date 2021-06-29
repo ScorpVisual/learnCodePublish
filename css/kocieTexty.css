@@ -15,7 +15,7 @@
 
 
 body {
-    background-color: rgb(252, 242, 212);
+    background-color: rgb(240, 229, 195);
     margin: auto;
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -143,10 +143,10 @@ body {
 /* testing */
 
   .hero-image {
-    background-image:url(../img/stock/catShelfCover.jpg);
+    background-image:url(../img/stock/catShelfCoverShorter.jpg);
     background-color: #cccccc;
     width: 100%;
-    height: 2880px;
+    height: 2232px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,28 +167,35 @@ body {
   .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
 
-  .hero-image:after {
+  /* .hero-image:after {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 15%;
     background-color: rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%
+      to bottom,
+      0deg,
+      hsla(0, 0%, 35.29%, 0) 0%,
+      hsla(0, 0%, 34.53%, 0.034375) 16.36%,
+      hsla(0, 0%, 32.42%, 0.125) 33.34%,
+      hsla(0, 0%, 29.18%, 0.253125) 50.1%,
+      hsla(0, 0%, 24.96%, 0.4) 65.75%,
+      hsla(0, 0%, 19.85%, 0.546875) 79.43%,
+      hsla(0, 0%, 13.95%, 0.675) 90.28%,
+      hsla(0, 0%, 7.32%, 0.765625) 97.43%,
+      hsla(0, 0%, 0%, 0.8) 100%
     );
-  }
+  } */
   
   
     /*  CONTENT */
@@ -219,10 +226,11 @@ body {
 
 .aw-heading {
     font-weight: 600;
-    font-size: 2.125rem;
+    font-size: 4rem;
     letter-spacing: 0.10rem;
     position: absolute;
     align-self: center;
+    text-shadow: #080706;
     
 }
 
@@ -382,4 +390,8 @@ p {
     color: #EFEFEF;
     text-align: center;
     font-size: 16px;
+}
+
+.hero-p {
+    font-size: 22px;
 }
